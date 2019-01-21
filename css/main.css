@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  font-family: Bevan, sans-serif;
+  line-height: 1.5;
+  background-color: #79756f;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 80hv;
+  background-color: #dbd6cf;
+}
+
+header {
+  color: #fff;
+  background-color: #595652;
+  max-height: 30em;
+  border-top: 3px solid #2E2C2A;
+  border-bottom: 3px solid #2E2C2A;
+}
