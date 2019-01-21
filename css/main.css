@@ -1,4 +1,6 @@
 html {
+  display: flex;
+  justify-content: center;
   box-sizing: border-box;
   font-family: Bevan, sans-serif;
   line-height: 1.5;
@@ -10,14 +12,30 @@ html {
 }
 
 body {
-  height: 80hv;
+  height: 30em;
+  min-width: 30em;
   background-color: #dbd6cf;
 }
 
 header {
+  flex-flow: column;
+  justify-content: center;
   color: #fff;
   background-color: #595652;
   max-height: 30em;
   border-top: 3px solid #2E2C2A;
   border-bottom: 3px solid #2E2C2A;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: .3em;
+  padding: .75em;
+  background-color: #713837;
+  border-radius: 5px;
 }
