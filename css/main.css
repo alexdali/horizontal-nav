@@ -18,18 +18,28 @@ body {
 }
 
 header {
-  flex-flow: column;
-  justify-content: center;
+  /* flex-flow: column; */
+  /* justify-content: center; */
   color: #fff;
   background-color: #595652;
   max-height: 30em;
+  margin: auto;
   border-top: 3px solid #2E2C2A;
   border-bottom: 3px solid #2E2C2A;
+}
+
+h1 {
+  /* padding-bottom: 0; */
+  margin: .3em .3em 0;
+  text-align: center;
 }
 
 ul {
   list-style-type: none;
   text-align: center;
+  padding: .5em;
+  padding-top: 0;
+  margin: 0 .3em;
 }
 
 li {
@@ -38,4 +48,8 @@ li {
   padding: .75em;
   background-color: #713837;
   border-radius: 5px;
+}
+
+li a {
+  /* font-family: sans-serif; */
 }
